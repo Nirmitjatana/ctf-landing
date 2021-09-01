@@ -1,0 +1,137 @@
+.nav-holder{
+  padding-top: 60px;
+  padding-left: 40px;
+}
+html{
+  /* background-image: url(./Assets/bg.png); */
+  /* position: absolute; */
+  /* overflow-y: none; */
+  /* position: static; */
+  background: url(./Assets/Bg_ctf.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* height: 100vh; */
+}
+.test{
+  position: absolute;
+  z-index: 99;
+}
+.ctf-holder{
+  text-align: center;
+}
+.logo{
+  margin-top: -15px;
+  width:400px;
+}
+.date{
+  color: white;
+  margin-top: -20px;
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
+.red{
+  background-color: red;
+  color: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: 13px;
+}
+.yellow{
+  background-color: yellow;
+  color: yellow;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: 13px;
+}
+.green{
+  background-color: #02e05f;
+  color: #02e05f;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: 13px;
+}
+.t-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 25px;
+}
+.terminal{
+  margin: 5px auto;
+  /* justify-content: center; */
+  background-color: #0D0F5B;
+  opacity: 0.9;
+  width:60vw;
+  box-shadow: 0px 0px 24.686px 0.949461px rgba(73, 141, 255, 0.2);
+  border-radius: 15.1914px;
+}
+.t-text{
+  color: white;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 250%;
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+.t-body{
+  padding-left: 17%;
+  padding-right: 17%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.coming{
+  margin: 30px auto;
+  /* cursor: pointer; */
+  background-color: #4244B4;
+  border-color: #4244B4;
+  border-style: solid;
+  font-size: 18px;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 40px;
+}
+@media screen and (max-width: 1000px){
+  
+}
+@media screen and (max-width: 700px){
+  .gdsc-logo{
+    width: 250px;
+  }
+  .nav-holder{
+    padding-top: 25px;
+    padding-left: 25px;
+  }
+  .logo{
+    margin-top: -30px;
+    width:250px;
+  }
+  .date{
+    color: white;
+    margin-top: -35px;
+    font-size: 1.5rem;
+  }
+  .t-bar{
+    padding: 15px;
+  }
+  .terminal{
+    width:90vw;
+  }
+  .t-text{
+    font-size: 1.4rem;
+    line-height: 200%;
+    letter-spacing: 3px;
+  }
+  .t-body{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+}
